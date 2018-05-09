@@ -1,0 +1,53 @@
+body {
+  color: #5688C7;
+  background-color: #CAE9FF;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.img-profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px black;
+}
+
+.profile {
+  background-color: #7EBDC3;
+  margin: 50px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.description {
+  width: 600px;
+  background-color: #7EBDC3;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.hobby {
+  width: 600px;
+  background-color: #7EBDC3;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+h4 {
+  color: black;
+}
+
+.social_link {
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.link {
+  padding: 50px;
+}
