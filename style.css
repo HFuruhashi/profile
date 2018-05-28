@@ -10,6 +10,51 @@ body {
   height: 200px;
   border-radius: 50%;
   box-shadow: 5px 5px 5px black;
+  -webkit-animation: spin 1000ms linear 500px, moveLeftToRight 5s linear;
+  -moz-animation: spin 1000ms linear 500px, moveLeftToRight 5s linear;
+  -ms-animation: spin 1000ms linear 500px, moveLeftToRight 5s linear;
+  animation: spin 1000ms linear 500px, moveLeftToRight 5s linear;
+
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+
+  position: absolute;
+  left: 500;
+}
+
+@-ms-keyframes spin {
+  from { -ms-transform: rotate(0deg); }
+  to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+
+/* Move sphere from left to right */
+@-moz-keyframes moveLeftToRight {
+  0%   { left: -50px; }
+  100% { left: 50%; }
+}
+@-ms-keyframes moveLeftToRight {
+  0%   { left: -50px; }
+  100% { left: 50%; }
+}
+@keyframes moveLeftToRight {
+  0%   { left: -50px; }
+  100% { left: 50%; }
+}
+@-webkit-keyframes moveLeftToRight {
+  0%   { left: -50px; }
+  100% { left: 50%; }
 }
 
 .profile {
