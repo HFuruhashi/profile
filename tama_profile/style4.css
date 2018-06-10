@@ -46,3 +46,18 @@ img {
   width: 450px;
   height: 600px;
 }
+
+.btn {
+  font-size: 2rem;
+}
+
+a {
+  color: red;
+  padding: 10px;
+}
+
+a:hover {
+  color: red;
+  padding-top: 1px;
+}
+
